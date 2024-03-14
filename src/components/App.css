@@ -1,0 +1,229 @@
+body{
+    
+    margin: 0;
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding: 0;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.blur
+{
+    
+   z-index: -1;
+    filter: blur(5px);
+    pointer-events: none;
+   user-select: none;
+}
+.Header
+{
+    font-size: 50px;
+    padding-top: px;
+    padding-bottom: 15px;
+    height: 80px;
+    font-weight: bolder;
+    text-align: center;
+    color:#111439 ;
+    background-color:#9933ff;
+    margin-bottom: 20px;
+    
+}
+
+.SignIn h1
+{
+    font-size: 70px;
+    font-weight: bolder;
+    
+}
+.SignIn input 
+{
+    margin-top:20px ;
+}
+.SignIn  button 
+{
+    margin: 30px;
+}
+
+.link button
+{
+    width: 150px;
+  margin: 0;
+}
+.SignOut
+{
+    position: absolute;
+    
+    top:5px;
+    right: 50px;
+}
+.SignOut button
+{
+    
+    padding: 10px;
+    color: #9933ff;
+    width:130px;
+    background-color: #D3C5E5;
+}
+.SignOut button:hover
+{
+    background-color: #E1AFD1;
+}
+.Search button{
+    margin-left: 30px;
+    width: 200px;
+}
+.hide
+{
+    display: none;
+}
+input
+{
+    width: 17%;
+    height: 10px;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    color: #000000;
+    background-color: #ffffff;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    outline: none;
+}
+
+
+button
+{
+    
+    margin-top: 20px;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    padding: 8px;
+    cursor: pointer; 
+    border: none; 
+    font-size: 20px;
+    width: 100px;
+    font-weight: bolder;
+    background-color: #ad98c8;
+    border-radius: 10px;
+    
+   
+}
+/* background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+
+button:hover
+{
+  background-color: #E1AFD1;
+}
+
+
+.facecard
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+.contact-table {
+    width: 98%;
+    font-weight: bolder;
+    border-collapse: collapse;
+  }
+  
+  .contact-table th,
+  .contact-table td {
+    padding: 8px;
+    border: 1px solid #000000;
+  }
+  
+  .contact-table th {
+    background-color: #000000;
+    text-align: center;
+  }
+.edit
+{
+   
+}
+.edit:hover
+{
+    color: red;
+    cursor: pointer;
+}
+.trash
+{
+   
+}
+.trash:hover
+{
+    color: red;
+    cursor: pointer;
+}
+.card
+{
+    width: 80%;
+    color: #000000;
+    border-radius: 5px;
+    margin:20px ;
+    margin-right: 0px;
+    padding: 10px;
+    background-color: #16FF00;
+    height: 300px;
+    
+    font-weight: bold;
+   
+    text-align: center;
+   
+}
+.editPage
+{
+    width: 60%;
+    height: 450px;
+    position: absolute;
+    top: 200px;
+    left: 20%;
+    backdrop-filter: none;
+    z-index: 1;
+    background-color: #616e5d;
+    box-shadow: 0 0 20px 20px rgb(0, 0, 0.1);
+    border-radius: 20px;
+}
+.hide1
+{
+    display: none;
+}
+.flexy{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+
+}
+
+.compress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    position: relative;
+    top: 20px;
+    left: 400px;
+    margin-bottom: 20px;
+}
+.address{
+    margin-right: 10px;
+}
+.AddForm
+{
+    /* display: flex; */
+    justify-content: center;
+}
+.AddForm input
+{
+    width: 70%;
+}
